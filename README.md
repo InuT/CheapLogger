@@ -53,7 +53,7 @@ start to install
 
 
 ## Usage
-    . /usr/bin/cheaplogger.sh
+    . /usr/bin/cheap/cheaplogger.sh
     
     # In case thst FILE_ONLY equals 1, logs are written to a log file.
     # In case thst FILE_ONLY doesn't equal 1, logs are written to a log file and standard output.
