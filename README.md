@@ -64,10 +64,10 @@ start to install
     # 1. execute a command and output its log
     exec_log "mkdir test"
     
-    # 2. output info log
+    # 2. output an info log
     info_log "something"
     
-    # 3. output err log
+    # 3. output an error log
     err_log "something"
     
     
@@ -77,11 +77,11 @@ start to install
     # 1. execute a command and output its log
     exec_log "mkdir test" 0001
     
-    # 2. output a info log
-    info_log "mkdir test" 0002
+    # 2. output an info log
+    info_log "something" 0002
     
-    # 3. output a error log
-    err_log "mkdir test" 0003
+    # 3. output an error log
+    err_log "something" 0003
     
     
 
