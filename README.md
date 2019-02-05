@@ -78,10 +78,10 @@ start to install
     exec_log "mkdir test" 0001
     
     # 2. output a info log
-    exec_log "mkdir test" 0002
+    info_log "mkdir test" 0002
     
     # 3. output a error log
-    exec_log "mkdir test" 0003
+    err_log "mkdir test" 0003
     
     
 
