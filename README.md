@@ -6,7 +6,7 @@
 cheaplogger is a cheap and simple logger that is easy for everyone to use.  
 Its learning cost is almost exactly zero.   
 
-![image](https://github.com/InuT/cheaplogger/blob/master/image.jpg)
+
 
 ## Description
 cheaplogger is able to output the following logs.  
