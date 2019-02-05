@@ -55,10 +55,10 @@ start to install
 ## Usage
     . /usr/bin/cheap/cheaplogger.sh
     
-    # In case thst FILE_ONLY equals 1, logs are written to a log file.
-    # In case thst FILE_ONLY doesn't equal 1, logs are written to a log file and standard output.
+    # In case thst FILE_ONLY (cheap.conf) doesn't equal 0, logs are written to a log file.
+    # In case thst FILE_ONLY (cheap.conf) equals 0, logs are written to a log file and standard output.
     
-    # In case that NOT_NEED_LOG_CODE (cheap.conf) is 0,
+    # In case that NOT_NEED_LOG_CODE (cheap.conf) equals 0,
     # cheaplogger outputs logs without log codes (format1).
     # It's usage is as follows.
     # 1. execute a command and output its log
@@ -71,7 +71,7 @@ start to install
     err_log "something"
     
     
-    # In case that NOT_NEED_LOG_CODE (cheap.conf) is except 0,  
+    # In case that NOT_NEED_LOG_CODE (cheap.conf) doesn't equal 0,  
     # cheaplogger outputs logs with log codes (format2).
     # It's usage is as follows.
     # 1. execute a command and output its log
