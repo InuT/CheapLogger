@@ -8,24 +8,6 @@ Its learning cost is almost exactly zero.
 
 ![image](https://github.com/InuT/cheaplogger/blob/master/image.jpg)
 
-## Description
-cheaplogger is able to output the following logs.  
-
-    format1:
-    [yyyy/mm/dd hh:MM:ss][hostname][log_level][user:process_id] ...  
-    
-    example (format1):
-    [2019/02/03 09:00:00][hostname][INFO][inut:1230] ...  
-    [2019/02/03 09:00:00][hostname][ERROR][inut:1230] ...  
-    
-    
-    format2:
-    [yyyy/mm/dd hh:MM:ss][hostname][log_level][log_code][user:process_id] ...  
-
-    example (format2):   
-    [2019/02/03 09:00:00][hostname][INFO][I0001][inut:1230] ...  
-    [2019/02/03 09:00:00][hostname][ERROR][E0001][inut:1230] ...  
-
 
 
 ## Requirement
@@ -84,6 +66,24 @@ start to install
     err_log "something" 0003
     
     
+
+## Log format
+cheaplogger is able to output the following logs.  
+
+    format1:
+    [yyyy/mm/dd hh:MM:ss][hostname][log_level][user:process_id] ...  
+    
+    example (format1):
+    [2019/02/03 09:00:00][hostname][INFO][inut:1230] ...  
+    [2019/02/03 09:00:00][hostname][ERROR][inut:1230] ...  
+    
+    
+    format2:
+    [yyyy/mm/dd hh:MM:ss][hostname][log_level][log_code][user:process_id] ...  
+
+    example (format2):   
+    [2019/02/03 09:00:00][hostname][INFO][I0001][inut:1230] ...  
+    [2019/02/03 09:00:00][hostname][ERROR][E0001][inut:1230] ...  
 
 
 
