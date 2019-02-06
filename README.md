@@ -34,41 +34,6 @@ start to install
 
 
 
-## Usage
-    . /usr/bin/cheap/cheaplogger.sh
-    
-    # In case thst FILE_ONLY (cheap.conf) doesn't equal 0, logs are written to a log file.
-    # In case thst FILE_ONLY (cheap.conf) equals 0, logs are written to a log file and standard output.
-    
-    # In case that NOT_NEED_LOG_CODE (cheap.conf) equals 0,
-    # cheaplogger outputs logs without log codes (format1).
-    # It's usage is as follows.
-    
-    # 1. execute a command and output its log
-    exec_log "mkdir test"
-    
-    # 2. output an info log
-    info_log "something"
-    
-    # 3. output an error log
-    err_log "something"
-    
-    
-    # In case that NOT_NEED_LOG_CODE (cheap.conf) doesn't equal 0,  
-    # cheaplogger outputs logs with log codes (format2).
-    # It's usage is as follows.
-    
-    # 1. execute a command and output its log
-    exec_log "mkdir test" 0001
-    
-    # 2. output an info log
-    info_log "something" 0002
-    
-    # 3. output an error log
-    err_log "something" 0003
-    
-    
-
 ## Log format
 cheaplogger is able to output the following logs.  
 
@@ -86,7 +51,44 @@ cheaplogger is able to output the following logs.
     example (format2):   
     [2019/02/03 09:00:00][hostname][INFO][I0001][inut:1230] ...  
     [2019/02/03 09:00:00][hostname][ERROR][E0001][inut:1230] ...  
+    
 
+
+
+## Usage
+    . /usr/bin/cheap/cheaplogger.sh
+    
+    # In case thst FILE_ONLY (cheap.conf) doesn't equal 0, logs are written to a log file.
+    # In case thst FILE_ONLY (cheap.conf) equals 0, logs are written to a log file and standard output.
+    
+    # In case that NOT_NEED_LOG_CODE (cheap.conf) doesn't equal 0,
+    # cheaplogger outputs logs without log codes (format1).
+    # It's usage is as follows.
+    
+    # 1. execute a command and output its log
+    exec_log "mkdir test"
+    
+    # 2. output an info log
+    info_log "something"
+    
+    # 3. output an error log
+    err_log "something"
+    
+    
+    # In case that NOT_NEED_LOG_CODE (cheap.conf) equals 0,  
+    # cheaplogger outputs logs with log codes (format2).
+    # It's usage is as follows.
+    
+    # 1. execute a command and output its log
+    exec_log "mkdir test" 0001
+    
+    # 2. output an info log
+    info_log "something" 0002
+    
+    # 3. output an error log
+    err_log "something" 0003
+    
+    
 
 
 ## Config file
