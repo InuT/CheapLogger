@@ -43,6 +43,7 @@ start to install
     # In case that NOT_NEED_LOG_CODE (cheap.conf) equals 0,
     # cheaplogger outputs logs without log codes (format1).
     # It's usage is as follows.
+    
     # 1. execute a command and output its log
     exec_log "mkdir test"
     
@@ -53,9 +54,11 @@ start to install
     err_log "something"
     
     
+    
     # In case that NOT_NEED_LOG_CODE (cheap.conf) doesn't equal 0,  
     # cheaplogger outputs logs with log codes (format2).
     # It's usage is as follows.
+    
     # 1. execute a command and output its log
     exec_log "mkdir test" 0001
     
