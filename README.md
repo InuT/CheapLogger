@@ -54,7 +54,6 @@ start to install
     err_log "something"
     
     
-    
     # In case that NOT_NEED_LOG_CODE (cheap.conf) doesn't equal 0,  
     # cheaplogger outputs logs with log codes (format2).
     # It's usage is as follows.
