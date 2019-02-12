@@ -58,8 +58,8 @@ cheaplogger is able to output the following logs.
 ## Usage
     . /usr/bin/cheap/cheaplogger.sh
     
-    # In case thst FILE_ONLY (cheap.conf) doesn't equal 0, logs are written to a log file.
-    # In case thst FILE_ONLY (cheap.conf) equals 0, logs are written to a log file and standard output.
+    # In case that FILE_ONLY (cheap.conf) doesn't equal 0, logs are written to a log file.
+    # In case that FILE_ONLY (cheap.conf) equals 0, logs are written to a log file and standard output.
     
     # In case that NOT_NEED_LOG_CODE (cheap.conf) doesn't equal 0,
     # cheaplogger outputs logs without log codes (format1).
